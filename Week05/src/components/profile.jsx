@@ -110,7 +110,7 @@ function Profile({ img, mood, message, name }) {
                             onChange={handleNameChange}
                             placeholder="여기에 이름 입력" />
                         <ProfileInput 
-                            label="한마디" 
+                            label="한마디"
                             value={todayMessage} 
                             onChange={handleMessageChange} 
                             placeholder="여기에 메시지 입력" />
